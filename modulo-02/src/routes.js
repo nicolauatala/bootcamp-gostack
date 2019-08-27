@@ -31,6 +31,7 @@ routes.post('/files', upload.single('file'), FileController.store);
 // Appointment
 routes.get('/appointments', AppointmentController.index);
 routes.post('/appointments', AppointmentController.store);
+routes.delete('/appointments/:id', AppointmentController.delete);
 
 // Schedule
 routes.get('/schedule', ScheduleController.index);
