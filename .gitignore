@@ -3,3 +3,89 @@
 /modulo-01/node_modules/
 /modulo-02/node_modules/
 /modulo-03/node_modules/
+
+# React native
+# Xcode
+modulo-06/modulo06/!**/*.xcodeproj
+modulo-06/modulo06/!**/*.pbxproj
+modulo-06/modulo06/!**/*.xcworkspacedata
+modulo-06/modulo06/!**/*.xcsettings
+modulo-06/modulo06/!**/*.xcscheme
+modulo-06/modulo06/*.pbxuser
+modulo-06/modulo06/!default.pbxuser
+modulo-06/modulo06/*.mode1v3
+modulo-06/modulo06/!default.mode1v3
+modulo-06/modulo06/*.mode2v3
+modulo-06/modulo06/!default.mode2v3
+modulo-06/modulo06/*.perspectivev3
+modulo-06/modulo06/!default.perspectivev3
+modulo-06/modulo06/xcuserdata
+modulo-06/modulo06/*.xccheckout
+modulo-06/modulo06/*.moved-aside
+modulo-06/modulo06/DerivedData
+modulo-06/modulo06/*.hmap
+modulo-06/modulo06/*.ipa
+modulo-06/modulo06/*.xcuserstate
+modulo-06/modulo06/project.xcworkspace
+
+# Gradle
+modulo-06/modulo06/build/
+modulo-06/modulo06/RNTester/android/app/build/
+modulo-06/modulo06/RNTester/android/app/gradle/
+modulo-06/modulo06/RNTester/android/app/gradlew
+modulo-06/modulo06/RNTester/android/app/gradlew.bat
+modulo-06/modulo06/ReactAndroid/build/
+
+# Buck
+modulo-06/modulo06.buckd
+modulo-06/modulo06buck-out
+modulo-06/modulo06/ReactAndroid/src/main/jni/prebuilt/lib/armeabi-v7a/
+modulo-06/modulo06/ReactAndroid/src/main/jni/prebuilt/lib/x86/
+modulo-06/modulo06/ReactAndroid/src/main/gen
+
+# Watchman
+modulo-06/modulo06/.watchmanconfig
+
+# Android
+modulo-06/modulo06/.idea
+modulo-06/modulo06/.gradle
+modulo-06/modulo06/local.properties
+modulo-06/modulo06/*.iml
+modulo-06/modulo06/android/
+
+# Node
+modulo-06/modulo06/node_modules
+modulo-06/modulo06/*.log
+modulo-06/modulo06/.nvm
+modulo-06/modulo06/bots/node_modules/
+modulo-06/modulo06/package-lock.json
+
+# OS X
+modulo-06/modulo06/.DS_Store
+
+# Test generated files
+modulo-06/modulo06/ReactAndroid/src/androidTest/assets/AndroidTestBundle.js
+modulo-06/modulo06/*.js.meta
+
+modulo-06/modulo06/coverage
+modulo-06/modulo06/third-party
+
+# Root dir shouldn't have Xcode project
+modulo-06/modulo06/*.xcodeproj
+
+# ReactCommon subdir shouldn't have Xcode project
+modulo-06/modulo06/ReactCommon/**/*.xcodeproj
+modulo-06/modulo06/RNTester/build
+
+# Libs that shouldn't have Xcode project
+modulo-06/modulo06/Libraries/FBLazyVector/**/*.xcodeproj
+modulo-06/modulo06/Libraries/FBReactNativeSpec/**/*.xcodeproj
+modulo-06/modulo06/Libraries/RCTRequired/**/*.xcodeproj
+modulo-06/modulo06/React/CoreModules/**/*.xcodeproj
+modulo-06/modulo06/packages/react-native-codegen/**/*.xcodeproj
+
+# CocoaPods
+modulo-06/modulo06/template/ios/Pods/
+modulo-06/modulo06/template/ios/Podfile.lock
+modulo-06/modulo06/RNTester/Pods/Local Podspecs
+modulo-06/modulo06/RNTester/Pods/Target Support Files
