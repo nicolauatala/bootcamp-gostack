@@ -23,17 +23,14 @@ export default class Main extends Component {
     title: 'Usuários',
   };
 
-  static propTypes = {
-    navigation: PropTypes.shape({
-      navigate: PropTypes.func,
-    }).isRequired,
-  };
-
-  state = {
-    newUser: '',
-    users: [],
-    loading: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      newUser: '',
+      users: [],
+      loading: false,
+    };
+  }
 
   async componentDidMount() {
     console.tron.log(this.props);
@@ -123,3 +120,9 @@ export default class Main extends Component {
     );
   }
 }
+
+Main.propTypes = {
+  navigation: PropTypes.shape({
+    navigate: PropTypes.func,
+  }).isRequired,
+};
